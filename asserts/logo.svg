@@ -1,0 +1,31 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 外部齿轮轮廓 -->
+  <circle cx="24" cy="24" r="22" stroke="#003366" stroke-width="2" fill="none"/>
+  <path d="M24 2A22 22 0 1 0 24 46 22 22 0 1 0 24 2" stroke="#003366" stroke-width="2" fill="none"/>
+  
+  <!-- 内部标靶 -->
+  <circle cx="24" cy="24" r="16" stroke="#9D00FF" stroke-width="2" fill="none">
+    <animate attributeName="r" values="16;14;16" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.6;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 中心点 -->
+  <circle cx="24" cy="24" r="4" fill="#9D00FF">
+    <animate attributeName="r" values="4;3;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.8;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- 装饰性射线 -->
+  <line x1="24" y1="8" x2="24" y2="14" stroke="#9D00FF" stroke-width="2">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="24" y1="34" x2="24" y2="40" stroke="#9D00FF" stroke-width="2">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="8" y1="24" x2="14" y2="24" stroke="#9D00FF" stroke-width="2">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="34" y1="24" x2="40" y2="24" stroke="#9D00FF" stroke-width="2">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </line>
+</svg>
